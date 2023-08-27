@@ -25,7 +25,7 @@
 # shellcheck disable=SC2199
 # shellcheck disable=SC2317
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-APPNAME="$(basename "$0" 2>/dev/null)"
+APPNAME="default-error-pages"
 VERSION="202308261653-git"
 RUN_USER="$USER"
 SET_UID="$(id -u)"
@@ -54,14 +54,13 @@ SOURCE_GIT_REPO="https://github.com/casjay-templates/default-error-pages"
 [ -n "$TMP" ] && [ -d "$TMP" ] && TMP_DIR="$TMP/default_error_pages_$$" || TMP_DIR="/tmp/default_error_pages_$$"
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Main application
-if [ -d "$WEB_SERVER_ERROR_DIR/.git" ]; then
-  rm -Rf "$WEB_SERVER_ERROR_DIR"
-fi
 echo "Installing to $WEB_SERVER_ERROR_DIR"
+[ -d "$WEB_SERVER_ERROR_DIR" ] && rm -Rf "$WEB_SERVER_ERROR_DIR"
 [ "$USER" = "root" ] && runas_user="" || runas_user="sudo"
 $runas_user mkdir -p "$WEB_SERVER_ERROR_DIR"
 $runas_user git clone -q "$SOURCE_GIT_REPO" "$TMP_DIR"
 $runas_user cp -Rf "$TMP_DIR/." "$WEB_SERVER_ERROR_DIR"
+[ -d "$TMP_DIR" ] && rm -Rf "$TMP_DIR"
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # End application
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
