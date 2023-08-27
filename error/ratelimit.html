@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang=" en-US">
+  <head>
+    <link rel="stylesheet" href="./css/errorpages/default.css" />
+    <link rel="stylesheet" href="./css/hacker.css" />
+
+    <!-- Begin Default Header-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="generator" content="" />
+    <meta name="author" content="" />
+    <meta name="description" content="" />
+    <meta property="og:description" content="" />
+
+    <link rel="icon" type="image/x-icon" href="//avatars2.githubusercontent.com/u/43266386?s=200&v=4" />
+    <link rel="stylesheet" href="./css/github/ribbon.css" />
+    <link rel="stylesheet" href="./css/other/forms-min.css" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css2?Roboto&family=Roboto+Mono&display=swap" />
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <script src="//cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer></script>
+    <script src="./js/errorpages/isup.js" async defer></script>
+    <script src="./js/errorpages/homepage.js" async defer></script>
+    <script src="./js/errorpages/loaddomain.js" async defer></script>
+    <script src="./js/utils/fetch.min.js" async defer></script>
+    <script src="./js/utils/popper.min.js" async defer></script>
+    <script src="./js/utils/bootstrap.bundle.min.js" async defer></script>
+    <script src="//cdn.passprotect.io/passprotect.min.js" defer></script>
+    <!-- End Default Header-->
+    <title>Slow Down!</title>
+  </head>
+
+  <body onload="javascript:loadDomain();">
+    <!-- Error Page Content -->
+    <div class="container">
+      <div class="jumbotron">
+        <h1><i class="fa fa-dashboard red"></i> <a href="//www.google.com/search?q=server+error+rate+limit" target="_blank"> Slow Down</a></h1>
+        <br />
+        <h3>Rate Limit Exceeded.</h3>
+        <p class="lead">The web server is returning a rate limiting notification</p>
+        <br />
+        <div class="container">
+          <div class="body-content"><img alt="error" src="//error/images/oops.gif" /><br /></div>
+        </div>
+        <a onclick="javascript:homepage();" class="btn btn-default btn-lg green"><span id="display-domain"></span></a>
+      </div>
+      <!-- Begin Casjays Developments Footer -->
+      <hr />
+      <div class="footer footer-custom col-sm-12">
+        <div class="footer vh-100">
+          <div class="footer-custom fs-4">
+            <br />
+            <br />
+            <br />
+            <!-- Begin last updated -->
+            <span style="color: skyblue"> REPLACE_LAST_UPDATED_ON_MESSAGE </span>
+            <br />
+            <br />
+            <!-- End last updated -->
+
+            <!-- begin legal block --->
+            <div class="legal">REPLACE_COPYRIGHT_FOOTER</div>
+            <!-- end legal block --->
+
+            <!-- begin engine block --->
+            <div class="text-center" style="color: royalblue">
+              <br />
+              Made with 💜💜💜💜💜💜 by
+              <br />
+              <a href="//github.com/casjay" target="_blank" rel="noopener">Jason M. Hempstead (Casjay)</a>
+              <br />
+              This site is powered by an
+              <a href="//github.com/casjay-templates/default-web-assets" target="_blank" rel="noopener">open source </a>theme
+            </div>
+            <br />
+            <!-- end engine block --->
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+      <br /><br /><br /><br /><br /><br /><br />
+      <!-- Begin Casjays Developments Footer -->
+    </div>
+  </body>
+</html>

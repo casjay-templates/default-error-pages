@@ -1,0 +1,5 @@
+user-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /wp-admin
+Disallow: /admin-panel
