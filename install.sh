@@ -59,7 +59,7 @@ echo "Installing to $WEB_SERVER_ERROR_DIR"
 [ "$USER" = "root" ] && runas_user="" || runas_user="sudo"
 $runas_user mkdir -p "$WEB_SERVER_ERROR_DIR"
 $runas_user git clone -q "$SOURCE_GIT_REPO" "$TMP_DIR"
-$runas_user cp -Rf "$TMP_DIR/." "$WEB_SERVER_ERROR_DIR"
+$runas_user cp -Rf "$TMP_DIR/error/." "$WEB_SERVER_ERROR_DIR"
 [ -d "$TMP_DIR" ] && rm -Rf "$TMP_DIR"
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # End application
