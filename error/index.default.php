@@ -16,8 +16,8 @@
     href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
     rel="stylesheet" type="text/css" />
 
-  <link rel="stylesheet" type="text/css" href="./css/hacker.css" />
-  <link rel="stylesheet" type="text/css" href="./css/casjaysdev.css" />
+  <link rel="stylesheet" type="text/css" href="/error/css/hacker.css" />
+  <link rel="stylesheet" type="text/css" href="/error/css/casjaysdev.css" />
 
   <link rel="stylesheet" type="text/css"
     href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
@@ -40,9 +40,9 @@
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" defer>
   </script>
 
-  <script src="./js/errorpages/isup.js" defer></script>
-  <script src="./js/errorpages/homepage.js" defer></script>
-  <script src="./js/errorpages/loaddomain.js" defer></script>
+  <script src="/error/js/errorpages/isup.js" defer></script>
+  <script src="/error/js/errorpages/homepage.js" defer></script>
+  <script src="/error/js/errorpages/loaddomain.js" defer></script>
   <script src="//cdn.passprotect.io/passprotect.min.js" defer></script>
   <title>Site Configured</title>
 </head>
