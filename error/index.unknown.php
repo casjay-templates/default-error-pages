@@ -61,6 +61,7 @@
     <div class="c5">
       <br />
       <?php
+      echo "System Hostname: " , gethostname() . "<br />";
       echo "Server Name: " . $_SERVER['SERVER_NAME'] . "<br />";
       echo "IP Address: " . $_SERVER['SERVER_ADDR'] . "<br />";
       ?> <br /><br />
