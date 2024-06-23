@@ -66,6 +66,7 @@
       Server Admin you can now upload your site to <br />
       <?php echo $_SERVER['DOCUMENT_ROOT']; ?>
       <br /><br /><br />
+      <?php echo "System Hostname: " , gethostname() . "<br />"; ?>
       <?php echo "Server Name: " . $_SERVER['SERVER_NAME'] . "<br />"; ?>
       <?php echo "IP Address: " . $_SERVER['SERVER_ADDR'] . "<br />"; ?> <br />
       Linux OsVer: <?php echo shell_exec('cat /etc/redhat-release'); ?> <br />
