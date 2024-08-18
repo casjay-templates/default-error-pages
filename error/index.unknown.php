@@ -43,7 +43,11 @@
   <script src="/error/js/errorpages/isup.js" defer></script>
   <script src="/error/js/errorpages/homepage.js" defer></script>
   <script src="/error/js/errorpages/loaddomain.js" defer></script>
-  <script src="//cdn.passprotect.io/passprotect.min.js" defer></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/passprotect@1.0.0/umd/passprotect.min.js"
+    crossorigin="anonymous"
+    defer
+    async></script>
   <title>Domain Doesn't Exist</title>
 </head>
 
@@ -61,7 +65,7 @@
     <div class="c5">
       <br />
       <?php
-      echo "System Hostname: " , gethostname() . "<br />";
+      echo "System Hostname: ", gethostname() . "<br />";
       echo "Server Name: " . $_SERVER['SERVER_NAME'] . "<br />";
       echo "IP Address: " . $_SERVER['SERVER_ADDR'] . "<br />";
       ?> <br /><br />
