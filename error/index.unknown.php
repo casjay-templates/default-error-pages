@@ -33,20 +33,17 @@
   </script>
   <script src="//cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous" defer>
-  </script>
+    </script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" defer></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
   <script src="//cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" defer>
-  </script>
+    </script>
 
   <script src="/error/js/errorpages/isup.js" defer></script>
   <script src="/error/js/errorpages/homepage.js" defer></script>
   <script src="/error/js/errorpages/loaddomain.js" defer></script>
-  <script
-    src="//cdn.jsdelivr.net/npm/passprotect@1.0.0/umd/passprotect.min.js"
-    crossorigin="anonymous"
-    defer
+  <script src="//cdn.jsdelivr.net/npm/passprotect@1.0.0/umd/passprotect.min.js" crossorigin="anonymous" defer
     async></script>
   <title>Domain Doesn't Exist</title>
 </head>
@@ -85,11 +82,6 @@
         <br />
         <br />
         <br />
-        <!-- Begin last updated -->
-        <span style="color: skyblue"> REPLACE_LAST_UPDATED_ON_MESSAGE </span>
-        <br />
-        <br />
-        <!-- End last updated -->
         <!-- begin legal block --->
         <div class="legal">REPLACE_COPYRIGHT_FOOTER</div>
         <!-- end legal block --->
@@ -101,10 +93,19 @@
           <a href="//github.com/casjay" target="_blank" rel="noopener">Jason M. Hempstead (Casjay)</a>
           <br />
           This site is powered by an
-          <a href="//github.com/casjay-templates/default-web-assets" target="_blank" rel="noopener">open source </a>theme
+          <a href="//github.com/casjay-templates/default-web-assets" target="_blank" rel="noopener">open source
+          </a>theme
         </div>
         <br />
         <!-- end engine block --->
+        <!-- Begin last updated -->
+        <br />
+        <br />
+        <span style="color: skyblue"> REPLACE_LAST_UPDATED_ON_MESSAGE </span>
+        <br />
+        <br />
+        <br />
+        <!-- End last updated -->
         <br />
         <br />
       </div>
