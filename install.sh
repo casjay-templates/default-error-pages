@@ -50,7 +50,7 @@ __function_exists() { builtin type $1 >/dev/null 2>&1 || return 1; }
 DEFAULT_COLOR="254"
 COPYRIGHT_YEAR="$(date +'%Y')"
 DEFAULT_ERROR_PAGES_EXIT_STATUS=0
-WEB_SERVER_ERROR_DIR="/usr/share/httpd/error"
+WEB_SERVER_ERROR_DIR="/usr/local/share/httpd/error"
 COPYRIGHT_FOOTER="Copyright 1999 - $COPYRIGHT_YEAR"
 UPDATED_MESSAGE="$(date +'Last updated on: %Y-%m-%d at %H:%M:%S')"
 SOURCE_GIT_REPO="https://github.com/casjay-templates/default-error-pages"
