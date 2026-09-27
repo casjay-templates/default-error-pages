@@ -28,14 +28,6 @@
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" crossorigin="anonymous" defer>
   </script>
-  <script src="//cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous" defer>
-    </script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" defer></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
-  <script src="//cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" defer>
-    </script>
 
   <script src="/error/js/errorpages/isup.js" defer></script>
   <script src="/error/js/errorpages/homepage.js" defer></script>
