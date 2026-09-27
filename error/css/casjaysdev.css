@@ -41,8 +41,8 @@ TD {
   max-width: 600px;
 }
 
-H5,
-H3 {
+.box H5,
+.box H3 {
   padding: 3px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -59,11 +59,11 @@ div {
   text-align: center;
 }
 
-H3 {
+.box H3 {
   font-size: 13px;
 }
 
-H5 {
+.box H5 {
   font-size: 10px;
   text-align: right;
   background-color: #333;
