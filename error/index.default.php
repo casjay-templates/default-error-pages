@@ -21,6 +21,33 @@
 
   <link rel="stylesheet" type="text/css"
     href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <style>
+    .cc-window.cc-banner,
+    .cc-window.cc-floating {
+      width: 100%;
+      max-width: 100%;
+      left: 0;
+      right: 0;
+      box-sizing: border-box;
+    }
+    @media screen and (min-width: 415px) {
+      .cc-window.cc-floating {
+        bottom: 0;
+        flex-direction: row;
+        align-items: center;
+      }
+      .cc-window.cc-floating:not(.cc-theme-edgeless) {
+        padding: 1em 1.8em;
+      }
+      .cc-window.cc-floating .cc-message {
+        flex: 1;
+        margin-bottom: 0;
+      }
+      .cc-window.cc-floating .cc-compliance {
+        flex: 0 0 auto;
+      }
+    }
+  </style>
 
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
